@@ -1,11 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
 
 export default class Home extends Component {
 
     render() {
         return (
-            <h2>This is the home page</h2>
+            <Fragment>
+
+                <h2>Home</h2>
+                <hr />
+            </Fragment>
         );
     }
 }
